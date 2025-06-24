@@ -1,35 +1,30 @@
-name: Generate Snake Game
+name: Generate Snake
 
-# Controls when the action will run
 on:
-  # Runs automatically every 12 hours
   schedule:
     - cron: "0 */12 * * *"
-  
-  # Allows you to run this workflow manually
   workflow_dispatch:
 
-# Jobs to run
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
     steps:
-      # Step 1: Checkout the repository
-      - uses: actions/checkout@v3
-      
-      # Step 2: Generate the snake game
-      - uses: Platane/snk/svg-only@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Generate snake game
+        uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.Mahi928 }}
-          outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-            dist/snake-light.svg?palette=github-light
-      
-      # Step 3: Save the generated files
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+          github_user_name: ${{ github.repository_owner }}
+          outputs: snake.svg
+          
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: .
+          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
