@@ -1,7 +1,7 @@
 # 👋 Hi there, I'm Mahesh!
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Open+Source+Enthusiast;Problem+Solver;Tech+Explorer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Problem+Solver;Open+Source+Enthusiast;Full+Stack+Developer;Tech+Explorer" alt="Typing SVG" />
 </div>
 
 <p align="center">
