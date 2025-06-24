@@ -20,7 +20,7 @@ jobs:
       # Step 2: Generate the snake game
       - uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ${{ github.Mahi928 }}
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
