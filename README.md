@@ -5,9 +5,9 @@
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yourusername&color=blueviolet&style=flat-square&label=Profile+Views" />
-  <img src="https://img.shields.io/github/followers/yourusername?style=social" />
-  <img src="https://img.shields.io/github/stars/yourusername?style=social" />
+  <img src="https://komarev.com/ghpvc/?username=Mahi928&color=blueviolet&style=flat-square&label=Profile+Views" />
+  <img src="https://img.shields.io/github/followers/Mahi928?style=social" />
+  <img src="https://img.shields.io/github/stars/Mahi928?style=social" />
 </p>
 
 ---
